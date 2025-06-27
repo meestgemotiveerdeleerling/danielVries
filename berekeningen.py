@@ -17,3 +17,7 @@ def gemiddelde(getallen):
     if not isinstance(getallen, list):
         return 0
     return sum(getallen) / len(getallen)
+
+assert omtrek_cirkel(1) == 3,14
+
+assert gemiddelde(getallen) == sum / len 
